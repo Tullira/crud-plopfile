@@ -1,10 +1,10 @@
 {
   "name": "crud-plopfile",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "crud-generator/plopfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node ../scripts/postinstall.js"
   },
   "keywords": [
     "crud",
