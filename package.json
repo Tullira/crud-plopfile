@@ -1,0 +1,20 @@
+{
+  "name": "crud-plopfile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "keywords": [
+    "crud",
+    "plop",
+    "plopfile"
+  ],
+  "author": "Túlio Lira",
+  "license": "ISC",
+  "description": "CRUD files generated automatically using plop",
+  "dependencies": {
+    "plop": "^4.0.1"
+  }
+}
